@@ -68,7 +68,7 @@ The **IMD-QA** dataset was organized into major categories using **unsupervised 
 
 ## 📜 License
 
-This dataset is released under the [Insert License Name], allowing its use and modification for research purposes, in accordance with the terms outlined in the license.
+This dataset is released under the Apache License 2.0, allowing its use and modification for research purposes, in accordance with the terms outlined in the license.
 
 ## 🤝 Contributing
 
