@@ -5,8 +5,9 @@
 - **IMD-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
 - **IMD-MCQA**: Multiple-choice questions from Italian medical specialization exams, ideal for training models focused on structured and formal medical queries.
 
-## 🌟 Key Features
-
+## 🗃️ Structure
+The composition of IMD is: <br><br>
+![image](https://github.com/user-attachments/assets/de1bb95e-0163-4dcc-af01-79f40718c4e6)
 
 ## 📊 Dataset Statistics
 
@@ -31,6 +32,9 @@
 | **Max Question Length**           | 13,390 tokens           | 124 tokens            |
 
 ## 🧹 Preprocessing
+
+![image](https://github.com/user-attachments/assets/99796ea8-d27f-408b-92c6-4ecc9e9f808e)
+
 
 ### IMD-QA 🧑‍⚕️
 
