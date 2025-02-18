@@ -5,6 +5,14 @@
 - **IMD-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
 - **IMD-MCQA**: Multiple-choice questions from Italian medical specialization exams, ideal for training models focused on structured and formal medical queries.
 
+## ⚙️ How to Use the Dataset  
+
+To use the dataset, you can access it via **Google Drive** and download the required files. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+
+📂 **Dataset Access:**  
+- **IMD-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link]()  
+- **IMD-MCQA** (Italian Medical MCQA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/12OeI2mJV5bFbyC3715xVPke3SXc1rIGT/view?usp=sharing)  
+
 ## 🗃️ Structure
 The composition of IMD is: <br><br>
 ![image](https://github.com/user-attachments/assets/de1bb95e-0163-4dcc-af01-79f40718c4e6)
@@ -22,19 +30,9 @@ The composition of IMD is: <br><br>
 | **Unique Question Vocabulary**    | 1,397,929               | 19,214                |
 | **Unique Total Vocabulary**       | 1,552,766               | 20,448                |
 
-## 📏 Average & Max Lengths
-
-| Statistic                        | IMD-QA                  | IMD-MCQA              |
-|-----------------------------------|-------------------------|-----------------------|
-| **Average Answer Length**         | 352.05 tokens           | 9.3 tokens            |
-| **Max Answer Length**             | 9,817 tokens            | 21 tokens             |
-| **Average Question Length**       | 1,056.77 tokens         | 10.91 tokens          |
-| **Max Question Length**           | 13,390 tokens           | 124 tokens            |
-
 ## 🧹 Preprocessing
-
+**Workflow for constructing** the Italian Medical Dataset (IMD), divided into two main components: IMD-QA and IMD-MCQA. **IMD-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMD-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
 ![image](https://github.com/user-attachments/assets/99796ea8-d27f-408b-92c6-4ecc9e9f808e)
-
 
 ### IMD-QA 🧑‍⚕️
 
@@ -68,23 +66,13 @@ The **IMD-QA** dataset was organized into major categories using **unsupervised 
 | Dermatology, Allergies, and Aesthetics                 | 49,288          |
 | Neurology                                              | 46,704          |
 
-## ⚙️ How to Use the Dataset
-
-To use the dataset, simply download the repository and access the **CSV** or **JSON** files containing the questions and answers. Each file has been pre-processed to facilitate integration with NLP models, including those designed for **Question Answering**.
-
 ## 📜 License
 
 This dataset is released under the [Insert License Name], allowing its use and modification for research purposes, in accordance with the terms outlined in the license.
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/[Username]/IMD/issues). We look forward to your improvements!
-
-## 📧 Contact
-
-For further inquiries, contact us at: [email@example.com].
-
----
+We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/picuslab/IMD/issues). We look forward to your improvements!
 
 ### 🌐 Notes
 
