@@ -10,7 +10,7 @@
 To use the dataset, you can access it via **Google Drive** and download the required files. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
 
 📂 **Dataset Access:**  
-- **IMD-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link]()  
+- **IMD-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1G2k6Ir6v3RaufADYG_k1K08HakUcwNnJ/view?usp=sharing)  
 - **IMD-MCQA** (Italian Medical MCQA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/12OeI2mJV5bFbyC3715xVPke3SXc1rIGT/view?usp=sharing)  
 
 ## 🗃️ Structure
