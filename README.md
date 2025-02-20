@@ -1,5 +1,7 @@
 # ⚕️ IMD (Italian Medical Dataset) 🇮🇹
 
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
 **IMD (Italian Medical Dataset)** is a cutting-edge resource for **Natural Language Processing (NLP)** in the medical domain, specifically designed to improve the accuracy and reliability of **Question Answering (QA)** models in the **Italian language**. The dataset is split into two primary components:
 
 - **IMD-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
@@ -66,10 +68,6 @@ The **IMD-QA** dataset was organized into major categories using **unsupervised 
 | Dermatology, Allergies, and Aesthetics                 | 49,288          |
 | Neurology                                              | 46,704          |
 
-## 📜 License
-
-This dataset is released under the Apache License 2.0, allowing its use and modification for research purposes, in accordance with the terms outlined in the license.
-
 ## 🤝 Contributing
 
 We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/picuslab/IMD/issues). We look forward to your improvements!
@@ -81,3 +79,14 @@ We welcome contributions to improve the dataset! To contribute, simply open a pu
 
 👨‍💻 This project was developed by Antonio Romano, Giuseppe Riccio, Marco Postiglione, and Vincenzo Moscato 
 *University of Naples, Federico II*
+
+## 📜 License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
