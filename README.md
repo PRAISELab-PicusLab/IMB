@@ -1,6 +1,10 @@
 # ⚕️ IMD (Italian Medical Dataset) 🇮🇹
 
-[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
+<div align="center">
+    <a href="LICENSE" target="_blank"><img alt="License"
+        src="https://img.shields.io/badge/license-cc_by_nc_4.0-gray?style=for-the-badge&logo=creativecommons&logoColor=white&logoSize=auto&color=green"/></a>
+</div>
+<hr>
 
 **IMD (Italian Medical Dataset)** is a cutting-edge resource for **Natural Language Processing (NLP)** in the medical domain, specifically designed to improve the accuracy and reliability of **Question Answering (QA)** models in the **Italian language**. The dataset is split into two primary components:
 
