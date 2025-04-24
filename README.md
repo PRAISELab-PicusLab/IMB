@@ -17,7 +17,7 @@ To use the dataset, you can access it via **Google Drive** and download the requ
 
 ## 🗃️ Structure
 The composition of IMD is: <br><br>
-![image](https://github.com/user-attachments/assets/de1bb95e-0163-4dcc-af01-79f40718c4e6)
+![image](./IMDArch.png)
 
 ## 📊 Dataset Statistics
 
@@ -34,7 +34,7 @@ The composition of IMD is: <br><br>
 
 ## 🧹 Preprocessing
 **Workflow for constructing** the Italian Medical Dataset (IMD), divided into two main components: IMD-QA and IMD-MCQA. **IMD-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMD-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
-![image](https://github.com/user-attachments/assets/99796ea8-d27f-408b-92c6-4ecc9e9f808e)
+![image](./IMDWork.png)
 
 ### IMD-QA 🧑‍⚕️
 
@@ -77,8 +77,7 @@ We welcome contributions to improve the dataset! To contribute, simply open a pu
 - **Data Cleaning & Anonymization**: Preprocessing steps have been applied to ensure privacy and data integrity while keeping the content relevant for medical applications.
 - **Dataset Usage**: The dataset is intended for academic and research purposes only. It is not recommended for clinical decision-making or commercial use.
 
-👨‍💻 This project was developed by Antonio Romano, Giuseppe Riccio, Marco Postiglione, and Vincenzo Moscato 
-*University of Naples, Federico II*
+👨‍💻 This project was developed by Antonio Romano, Giuseppe Riccio, Marco Postiglione, and Vincenzo Moscato at *University of Naples, Federico II*
 
 ## 📜 License
 
