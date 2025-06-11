@@ -1,6 +1,8 @@
 # ⚕️ IMD (Italian Medical Dataset) 🇮🇹
 
 <div align="center">
+    <a href="https://huggingface.co/datasets/praiselab-picuslab/IMD" target="_blank"><img alt="IMD"
+        src="https://img.shields.io/badge/HuggingFace-IMD-grey?style=for-the-badge&logo=huggingface&logoSize=auto&color=gold"/></a>
     <a href="LICENSE" target="_blank"><img alt="License"
         src="https://img.shields.io/badge/license-cc_by_nc_4.0-gray?style=for-the-badge&logo=creativecommons&logoColor=white&logoSize=auto&color=green"/></a>
 </div>
@@ -81,7 +83,7 @@ We welcome contributions to improve the dataset! To contribute, simply open a pu
 - **Data Cleaning & Anonymization**: Preprocessing steps have been applied to ensure privacy and data integrity while keeping the content relevant for medical applications.
 - **Dataset Usage**: The dataset is intended for academic and research purposes only. It is not recommended for clinical decision-making or commercial use.
 
-👨‍💻 This project was developed by Antonio Romano, Giuseppe Riccio, Marco Postiglione, and Vincenzo Moscato at *University of Naples, Federico II*
+👨‍💻 This project was developed by Antonio Romano, Giuseppe Riccio, Mariano Barone, Marco Postiglione, and Vincenzo Moscato at *University of Naples, Federico II*
 
 ## 📜 License
 
