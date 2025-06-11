@@ -15,7 +15,7 @@
 
 ## ⚙️ How to Use the Dataset  
 
-To use the dataset, you can access it via **Google Drive** and download the required files or [**Download Now**](https://github.com/picuslab/IMD/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+To use the dataset, you can access it via **Google Drive** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMD/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
 
 📂 **Dataset Access:**  
 - **IMD-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1G2k6Ir6v3RaufADYG_k1K08HakUcwNnJ/view?usp=sharing)  
