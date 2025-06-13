@@ -49,7 +49,7 @@ The composition of IMD is: <br><br>
   - Eliminating redundancy and colloquial language.
   - Ensuring stylistic consistency across responses.
   - Enhancing readability and grammatical accuracy.
-- **Anonymization**: The model identified and removed personally identifiable information (PII) such as patient names, doctor names, healthcare facilities, etc.
+- **Anonymization**: The model identified and removed personally identifiable information (PII) such as patient names, doctor names, healthcare facilities, etc. ([Full code here](https://github.com/PRAISELab-PicusLab/IMD/tree/main/Anonymization))
 
 ### IMD-MCQA 📝
 
