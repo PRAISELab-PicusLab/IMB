@@ -1,4 +1,4 @@
-# ⚕️ IMD (Italian Medical Dataset) 🇮🇹
+# ⚕️ IMB (Italian Medical Benchmark) 🇮🇹
 
 <div align="center">
     <a href="https://huggingface.co/datasets/praiselab-picuslab/IMD" target="_blank"><img alt="IMD"
@@ -8,26 +8,26 @@
 </div>
 <hr>
 
-**IMD (Italian Medical Dataset)** is a cutting-edge resource for **Natural Language Processing (NLP)** in the medical domain, specifically designed to improve the accuracy and reliability of **Question Answering (QA)** models in the **Italian language**. The dataset is split into two primary components:
+**IMB (Italian Medical Benchmark)** is a cutting-edge resource for **Natural Language Processing (NLP)** in the medical domain, specifically designed to improve the accuracy and reliability of **Question Answering (QA)** models in the **Italian language**. The dataset is split into two primary components:
 
-- **IMD-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
-- **IMD-MCQA**: Multiple-choice questions from Italian medical specialization exams, ideal for training models focused on structured and formal medical queries.
+- **IMB-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
+- **IMB-MCQA**: Multiple-choice questions from Italian medical specialization exams, ideal for training models focused on structured and formal medical queries.
 
 ## ⚙️ How to Use the Dataset  
 
-To use the dataset, you can access it via **Google Drive** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMD/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+To use the dataset, you can access it via **Google Drive** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMB/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
 
 📂 **Dataset Access:**  
-- **IMD-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1G2k6Ir6v3RaufADYG_k1K08HakUcwNnJ/view?usp=sharing)  
-- **IMD-MCQA** (Italian Medical MCQA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1OExALbS4HrFLt02_nI4L8lLW07Q9U9gT/view?usp=sharing)  
+- **IMB-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1G2k6Ir6v3RaufADYG_k1K08HakUcwNnJ/view?usp=sharing)  
+- **IMB-MCQA** (Italian Medical MCQA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1OExALbS4HrFLt02_nI4L8lLW07Q9U9gT/view?usp=sharing)  
 
 ## 🗃️ Structure
-The composition of IMD is: <br><br>
-![image](./IMDArch.png)
+The composition of IMB is: <br><br>
+![image](./IMBArch.png)
 
 ## 📊 Dataset Statistics
 
-| Statistic                        | IMD-QA                  | IMD-MCQA              |
+| Statistic                        | IMB-QA                  | IMB-MCQA              |
 |-----------------------------------|-------------------------|-----------------------|
 | **# Questions and Answers**       | 782,644                 | 25,862                |
 | **# Categories**                  | 77                      | 60                    |
@@ -39,25 +39,25 @@ The composition of IMD is: <br><br>
 | **Unique Total Vocabulary**       | 1,552,766               | 20,448                |
 
 ## 🧹 Preprocessing
-**Workflow for constructing** the Italian Medical Dataset (IMD), divided into two main components: IMD-QA and IMD-MCQA. **IMD-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMD-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
-![image](./IMDWork.png)
+**Workflow for constructing** the Italian Medical Benchmark (IMB), divided into two main components: IMB-QA and IMB-MCQA. **IMB-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMB-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
+![image](./IMBWork.png)
 
-### IMD-QA 🧑‍⚕️
+### IMB-QA 🧑‍⚕️
 
 - **Data Cleaning**: Removal of incomplete or truncated questions, metadata (doctor signatures, timestamps), and textual inconsistencies while preserving the original medical intent.
 - **Text Normalization & Answer Reformulation**: Answers were reformulated using **Llama3-Med42-8B**, a Large Language Model (LLM) fine-tuned for medical applications. The focus was on:
   - Eliminating redundancy and colloquial language.
   - Ensuring stylistic consistency across responses.
   - Enhancing readability and grammatical accuracy.
-- **Anonymization**: The model identified and removed personally identifiable information (PII) such as patient names, doctor names, healthcare facilities, etc. ([Full code here](https://github.com/PRAISELab-PicusLab/IMD/tree/main/Anonymization))
+- **Anonymization**: The model identified and removed personally identifiable information (PII) such as patient names, doctor names, healthcare facilities, etc. ([Full code here](https://github.com/PRAISELab-PicusLab/IMB/tree/main/Anonymization))
 
-### IMD-MCQA 📝
+### IMB-MCQA 📝
 
 - **Data Organization**: The dataset's multiple-choice questions were already structured, so the preprocessing mainly focused on standardizing the data format and ensuring consistency across entries.
 
 ## 🏷️ Data Categorization
 
-The **IMD-QA** dataset was organized into major categories using **unsupervised topic modeling**. Techniques like **BERTopic**, **UMAP**, and **HDBSCAN** were used to group semantically similar questions into macro-categories. This approach enables flexible and interpretable categorization without rigid constraints.
+The **IMB-QA** dataset was organized into major categories using **unsupervised topic modeling**. Techniques like **BERTopic**, **UMAP**, and **HDBSCAN** were used to group semantically similar questions into macro-categories. This approach enables flexible and interpretable categorization without rigid constraints.
 
 ### General Categories and Question Distribution
 
@@ -76,7 +76,7 @@ The **IMD-QA** dataset was organized into major categories using **unsupervised 
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/picuslab/IMD/issues). We look forward to your improvements!
+We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/picuslab/IMB/issues). We look forward to your improvements!
 
 ### 🌐 Notes
 
