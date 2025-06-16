@@ -1,8 +1,8 @@
 # ⚕️ IMB (Italian Medical Benchmark) 🇮🇹
 
 <div align="center">
-    <a href="https://huggingface.co/datasets/praiselab-picuslab/IMD" target="_blank"><img alt="IMD"
-        src="https://img.shields.io/badge/HuggingFace-IMD-grey?style=for-the-badge&logo=huggingface&logoSize=auto&color=gold"/></a>
+    <a href="https://huggingface.co/datasets/praiselab-picuslab/IMB" target="_blank"><img alt="IMB"
+        src="https://img.shields.io/badge/HuggingFace-IMB-grey?style=for-the-badge&logo=huggingface&logoSize=auto&color=gold"/></a>
     <a href="LICENSE" target="_blank"><img alt="License"
         src="https://img.shields.io/badge/license-cc_by_nc_4.0-gray?style=for-the-badge&logo=creativecommons&logoColor=white&logoSize=auto&color=green"/></a>
 </div>
@@ -15,7 +15,7 @@
 
 ## ⚙️ How to Use the Dataset  
 
-To use the dataset, you can access it via **Hugging Face** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMB/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+To use the dataset, you can access it via **Hugging Face**, requesting access through the appropriate form, and download the required files. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
 
 <div>
         <h2>🗃️ Structure</h2>
