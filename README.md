@@ -15,14 +15,8 @@
 
 ## ⚙️ How to Use the Dataset  
 
-To use the dataset, you can access it via **Google Drive** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMB/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+To use the dataset, you can access it via **Hugging Face** and download the required files or [**Download Now**](https://github.com/PRAISELab-PicusLab/IMB/releases/latest) from GitHub. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
 
-📂 **Dataset Access:**  
-- **IMB-QA** (Italian Medical QA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1G2k6Ir6v3RaufADYG_k1K08HakUcwNnJ/view?usp=sharing)  
-- **IMB-MCQA** (Italian Medical MCQA Dataset): [🔗 Google Drive Link](https://drive.google.com/file/d/1OExALbS4HrFLt02_nI4L8lLW07Q9U9gT/view?usp=sharing)  
-
-## 🗃️ Structure
-The composition of IMB is: <br><br>
 <div>
         <h2>🗃️ Structure</h2>
         <p>The composition of IMB is:</p>
