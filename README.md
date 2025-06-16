@@ -74,7 +74,7 @@ The **IMB-QA** dataset was organized into major categories using **unsupervised 
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/picuslab/IMB/issues). We look forward to your improvements!
+We welcome contributions to improve the dataset! To contribute, simply open a pull request or report issues on our [issue tracker](https://github.com/PRAISELab-PicusLab/IMB/issues). We look forward to your improvements!
 
 ### 🌐 Notes
 
