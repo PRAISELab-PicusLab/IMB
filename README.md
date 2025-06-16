@@ -23,7 +23,11 @@ To use the dataset, you can access it via **Google Drive** and download the requ
 
 ## 🗃️ Structure
 The composition of IMB is: <br><br>
-![image](./IMBArch.png)
+<div>
+        <h2>🗃️ Structure</h2>
+        <p>The composition of IMB is:</p>
+        <img src="./IMBArch.png" alt="IMB Structure" width="30%">
+</div>
 
 ## 📊 Dataset Statistics
 
@@ -40,7 +44,7 @@ The composition of IMB is: <br><br>
 
 ## 🧹 Preprocessing
 **Workflow for constructing** the Italian Medical Benchmark (IMB), divided into two main components: IMB-QA and IMB-MCQA. **IMB-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMB-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
-![image](./IMBWork.png)
+![image](./IMBwork.png)
 
 ### IMB-QA 🧑‍⚕️
 
