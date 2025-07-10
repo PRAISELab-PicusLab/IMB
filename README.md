@@ -13,15 +13,23 @@
 - **IMB-QA**: Questions and answers extracted from Italian medical forums, reflecting informal language used by patients and healthcare professionals.
 - **IMB-MCQA**: Multiple-choice questions from Italian medical specialization exams, ideal for training models focused on structured and formal medical queries.
 
-## ⚙️ How to Use the Dataset  
+## 🔓 How to Access the Dataset
 
-To use the dataset, you can access it via **Hugging Face**, requesting access through the appropriate form, and download the required files. The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+You can access the **IMB** dataset via [Hugging Face](https://huggingface.co/datasets/praiselab-picuslab/IMB). Follow these steps to download it:
 
-<div>
-        <h2>🗃️ Structure</h2>
-        <p>The composition of IMB is:</p>
-        <img src="./IMBArch.png" alt="IMB Structure" width="30%">
-</div>
+```python
+from datasets import load_dataset
+
+# Login using e.g. `huggingface-cli login` to access this dataset
+dataset = load_dataset("praiselab-picuslab/IMB")
+```
+
+The dataset is provided in **JSON format**, structured to facilitate integration with **Natural Language Processing (NLP) models**, including those designed for **Question Answering (QA)** and **Multiple-Choice QA (MCQA)** tasks.  
+
+## 🗃️ Structure
+The composition of IMB is:
+
+<img src="./IMBArch.png" alt="IMB Structure" width="30%">
 
 ## 📊 Dataset Statistics
 
@@ -38,7 +46,7 @@ To use the dataset, you can access it via **Hugging Face**, requesting access th
 
 ## 🧹 Preprocessing
 **Workflow for constructing** the Italian Medical Benchmark (IMB), divided into two main components: IMB-QA and IMB-MCQA. **IMB-QA** collects data from Italian medical forums, processing them through cleaning, tokenization, anonymization, and categorization to create a structured dataset of questions and answers. **IMB-MCQA**, on the other hand, integrates data from medical specialization exam simulations, applying a collection and cleaning process to generate a dataset of multiple-choice questions. <br><br>
-![image](./IMBwork.png)
+![IMB_Workflow](./IMBwork.png)
 
 ### IMB-QA 🧑‍⚕️
 
